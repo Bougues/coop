@@ -13,7 +13,7 @@ public class LoginActivity extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 
-    /** Called when the user taps the Send button */
+    /** Called when the user taps the Sign up button */
     public void signUp(View view) {
         Intent intent = new Intent(this, AccountCreationActivity.class);
         startActivity(intent);
